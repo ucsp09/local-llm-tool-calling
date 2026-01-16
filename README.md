@@ -1,2 +1,2 @@
-# local-llm-tool-calling-agent
-Basic LLM Agent Which Calls Tools Dynamically And Answers Question
+# local-llm-tool-calling
+Demonstrates Different Tool Calling Approaches Using Locally Deployed LLM
