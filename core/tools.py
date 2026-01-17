@@ -29,3 +29,27 @@ def get_temperature(city: str):
         'London': '20C'
     }
     return temperatures.get(city)
+
+@register_tool()
+def add(a: int, b: int):
+    """
+    Add two numbers
+    Args:
+        a: The first number
+        b: The second number
+    Returns:
+        The sum of the two numbers
+    """
+    return a + b
+
+@register_tool()
+def multiply(a: int, b: int):
+    """
+    Multiply two numbers
+    Args:
+        a: The first number
+        b: The second number
+    Returns:
+        The product of the two numbers
+    """
+    return a * b
